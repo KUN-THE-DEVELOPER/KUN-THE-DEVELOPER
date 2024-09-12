@@ -112,7 +112,7 @@
 
 <h3 align="center">Tech Talks & Blog Posts📝</h3>
 <p align="center">
-  - 🤫 Cooming soon
+  - 🤫 Coming soon
   
 </p>
 
