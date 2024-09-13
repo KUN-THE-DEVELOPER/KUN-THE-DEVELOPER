@@ -31,7 +31,7 @@
   <li>🌱 Constantly learning and starting side projects</li>
   <li>👯 Collaborating on innovative and challenging tech projects</li>
   <li>💬 Open to discussing all things tech and software</li>
-  <li>⚡ Enjoys making tech-related jokes (e.g., "Why did the developer go on vacation? To get away from all the 'local' variables")</li>
+  <li>⚡ Enjoys embracing being funny(e.g., "Why did the developer go on vacation? To get away from all the 'local' variables")</li>
 </ul>
 
 <h3 align="center">My Coding Philosophy📖</h3>
