@@ -71,7 +71,7 @@
 
 <script>
   // Fetch GitHub API to get the most used languages
-  fetch('https://api.github.com/users/kun-the-developer/repos')
+  fetch('https://api.github.com/users/KUN-THE-DEVELOPER/repos')
     .then(response => response.json())
     .then(repos => {
       // Create a dictionary to store language counts
