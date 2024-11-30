@@ -41,14 +41,51 @@
 
 <h3 align="center">Languages and Tools🛠️</h3>
 <p align="center">
-  <!-- Add icons for the languages and tools you're familiar with -->
   <a href="https://getbootstrap.com" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="50" height="50"/>
+  </a>
+  <a href="https://www.chartjs.org" target="_blank" rel="noreferrer">
+    <img src="https://www.chartjs.org/media/logo-title.svg" alt="chartjs" width="50" height="50"/>
+  </a>
+  <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="50" height="50"/>
+  </a>
+  <a href="https://dotnet.microsoft.com/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg" alt="dotnet" width="50" height="50"/>
+  </a>
+  <a href="https://www.figma.com/" target="_blank" rel="noreferrer">
+    <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="50" height="50"/>
+  </a>
+  <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
+    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="50" height="50"/>
   </a>
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="50" height="50"/>
   </a>
-  <!-- Add other tools as needed -->
+  <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer">
+    <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="50" height="50"/>
+  </a>
+  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="50" height="50"/>
+  </a>
+  <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="50" height="50"/>
+  </a>
+  <a href="https://www.postgresql.org" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="50" height="50"/>
+  </a>
+  <a href="https://www.python.org" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="50" height="50"/>
+  </a>
+  <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="50" height="50"/>
+  </a>
+  <a href="https://reactnative.dev/" target="_blank" rel="noreferrer">
+    <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="50" height="50"/>
+  </a>
+  <a href="https://unity.com/" target="_blank" rel="noreferrer">
+    <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" width="50" height="50"/>
+  </a>
 </p>
 
 <h3 align="center">Recent Projects🚀</h3>
@@ -64,42 +101,6 @@
   </a>
 </p>
 
-<h3 align="center">Most Used Languages 🖥️</h3>
-<p align="center" id="languages-list">
-  <!-- Languages will be inserted here dynamically -->
-</p>
-
-<script>
-  // Fetch GitHub API to get the most used languages
-  fetch('https://api.github.com/users/MR0092/repos')
-    .then(response => response.json())
-    .then(repos => {
-      // Create a dictionary to store language counts
-      const languageCount = {};
-
-      repos.forEach(repo => {
-        if (repo.language) {
-          languageCount[repo.language] = (languageCount[repo.language] || 0) + 1;
-        }
-      });
-
-      // Sort languages by count
-      const sortedLanguages = Object.entries(languageCount)
-        .sort((a, b) => b[1] - a[1])
-        .slice(0, 5); // Top 5 languages
-
-      // Display the top 5 languages
-      const languagesList = document.getElementById('languages-list');
-      sortedLanguages.forEach(language => {
-        const languageItem = document.createElement('span');
-        languageItem.style.margin = '5px';
-        languageItem.innerHTML = `<strong>${language[0]}</strong> (${language[1]} projects)`;
-        languagesList.appendChild(languageItem);
-      });
-    })
-    .catch(error => console.error('Error fetching data from GitHub API', error));
-</script>
-
 <h3 align="center">Achievements🏆</h3>
 <p align="center">
   <ul style="list-style-type: none; padding: 0; text-align: center;">
@@ -112,6 +113,7 @@
 <h3 align="center">Tech Talks & Blog Posts📝</h3>
 <p align="center">
   - 🤫 Coming soon
+  
 </p>
 
 <h3 align="center">Let's Connect!</h3>
